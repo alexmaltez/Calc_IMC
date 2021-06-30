@@ -7,8 +7,8 @@
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="300">
             <Label Text="Bienvenidos" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
             <Label Text="Calculadora IMC" HorizontalTextAlignment="Center" FontSize="Title"/>
-            <Entry Placeholder="Altura" x:Name="Altura" Keyboard="Numeric"/>
-            <Entry Placeholder="Peso" x:Name="Peso" Keyboard="Numeric"/>
+            <Entry Placeholder="Altura (mt)" x:Name="Altura" Keyboard="Numeric"/>
+            <Entry Placeholder="Peso (kg)" x:Name="Peso" Keyboard="Numeric"/>
             <Entry Placeholder="Tu IMC" x:Name="IMC" IsEnabled="False"/>
             <Button Text="Calcular" Clicked="Button_Clicked" BackgroundColor="DarkMagenta"/>
             <Label Text=""></Label>
